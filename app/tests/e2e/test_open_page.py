@@ -1,4 +1,4 @@
-from playwright.async_api import Page, expect
+from playwright.async_api import Page
 
 class TestOpenPage:
 
