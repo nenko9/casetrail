@@ -13,8 +13,8 @@ All dependencies in
 
 Start dev server
 ```bash
-cd /Users/**/PycharmProjects/casetrail/app
-pytohn manage.py runserver
+cd */casetrail/app
+python manage.py runserver
 ```
 
 Start tests
