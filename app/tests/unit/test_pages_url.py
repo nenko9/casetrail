@@ -1,6 +1,8 @@
-from django.test import TestCase, Client
+from django.test import Client
+from django.urls import reverse
 
-class TestOpenPage(TestCase):
+
+class TestOpenPage:
 
     def test_open_page(self, pages):
         """
@@ -10,6 +12,6 @@ class TestOpenPage(TestCase):
         """
         client = Client()
         for page in pages:
-            response = client.get(page)
-            assert response.status_code == 200
-
+            url = reverse(page)
+            response = client.get(url)
+            assert response.status_code == 200, f"URL not found {page}"
