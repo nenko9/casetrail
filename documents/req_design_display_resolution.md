@@ -40,3 +40,47 @@
 | **Desktop (Large)** | **1920+** | Повноцінна робота з CRM, дешборди. |
 
 **Важливий нюанс для CRM:** Враховуйте **"sidebar"** (бокову панель). У системах типу Jira вона займає 240–280px. Ваша робоча область для документів на 13-дюймовому ноутбуці (1280px) залишиться в межах ~1000px. Це критично для проектування таблиць.
+
+
+ЗАПИТ ДО АІ
+Ось запит, спеціально структурований для Figma AI або Figma дизайнера, щоб згенерувати порожні фрейми (макети) з потрібними налаштуваннями:
+
+---
+
+### Запит (Prompt) для Figma AI / Дизайнера
+
+**Subject:** Create a multi-device UI starter project structure for a Document CRM system.
+
+**Objective:** Generate a clean Figma canvas with named Frames for three key pages, across four standard screen resolutions (Breakpoints), optimized for a Jira-like professional interface.
+
+**Required Deliverables:**
+A single Figma canvas containing 12 organized, empty Frames (3 pages × 4 resolutions). Each Frame must be labeled with the Page Name and Resolution.
+
+**Technical Specifications (Resolutions & Device Types):**
+
+1.  **Mobile (Portrait)**:
+    * **Resolution:** 390 × 844 px
+    * **Use Case:** Report viewing.
+2.  **Tablet (Portrait/Small Laptop)**:
+    * **Resolution:** 834 × 1194 px
+    * **Use Case:** Basic interaction (e.g., iPad Pro 11").
+3.  **Desktop (Standard/Compact)**:
+    * **Resolution:** 1440 × 900 px
+    * **Use Case:** Base design, MacBook standard.
+4.  **Desktop (Professional/Large)**:
+    * **Resolution:** 1920 × 1080 px
+    * **Use Case:** Full-HD CRM workspace (Primary Target).
+
+**Pages to Create (Names for Frames):**
+
+1.  **Page 1: Login** (e.g., "1. Login - Desktop Large", "1. Login - Mobile")
+2.  **Page 2: Dashboard (Home)** (e.g., "2. Dashboard - Desktop Standard")
+3.  **Page 3: Document Workspace** (e.g., "3. Doc Workspace - Tablet")
+
+**Constraints (Crucial):**
+* **DO NOT GENERATE ANY UI ELEMENTS:** No buttons, no forms, no text fields, no placeholders, no images. The frames must be completely empty.
+* **DO NOT DEFINE STYLES:** Do not apply any colors, backgrounds, or specific fonts to the frames. Leave them white/transparent with default gray borders.
+* **ORGANIZATION:** Arrange frames logically on the canvas: group by Page Name vertically, and by Resolution horizontally (e.g., Column 1 = all Login resolutions).
+
+**Purpose of this Request:** To establish a purely structured layout based on real-world usage data, allowing me to define typography, color palette, and background images later without pre-existing content.
+**Purpose of this Request:** To establish a purely structured layout based on real-world usage data, allowing me to define typography, color palette, and background images later without pre-existing content.
