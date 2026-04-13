@@ -9,4 +9,4 @@ class TestPagesDirectLink(TestCase):
         client = Client()
         response = client.get(path="/login/")
         self.assertEqual(response.status_code, 200, "Login page response status code error %s" %response.status_code)
-
+        self.assertIn(response.text, "Login page", )
