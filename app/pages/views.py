@@ -10,3 +10,6 @@ def wellcome(request):
 
 def login(request):
     return render(request, "pages/login.html")
+
+def testcases(request):
+    return render(request, template_name='pages/testcases.html')

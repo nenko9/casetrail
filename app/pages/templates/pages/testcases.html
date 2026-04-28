@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Cases List</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #f8f9fa; }
+
+        /* Стилі для статусів */
+        .status { font-weight: bold; padding: 4px 8px; border-radius: 4px; font-size: 0.9em; }
+        .passed { background-color: #d4edda; color: #155724; }
+        .failed { background-color: #f8d7da; color: #721c24; }
+        .pending { background-color: #fff3cd; color: #856404; }
+        .blocked { background-color: #e2e3e5; color: #383d41; }
+    </style>
+</head>
+<body>
+
+    <h1>Реєстр тест-кейсів проекту</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Назва тест-кейсу</th>
+                <th>Пріоритет</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>TC-001</td><td>Успішний вхід до системи</td><td>Critical</td><td><span class="status passed">Passed</span></td></tr>
+            <tr><td>TC-002</td><td>Вхід з невірним паролем</td><td>High</td><td><span class="status passed">Passed</span></td></tr>
+            <tr><td>TC-003</td><td>Відновлення пароля через Email</td><td>Medium</td><td><span class="status failed">Failed</span></td></tr>
+            <tr><td>TC-004</td><td>Реєстрація нового користувача</td><td>Critical</td><td><span class="status pending">Pending</span></td></tr>
+            <tr><td>TC-005</td><td>Валідація поля "Телефон"</td><td>Low</td><td><span class="status passed">Passed</span></td></tr>
+            <tr><td>TC-006</td><td>Завантаження аватарки (PNG/JPG)</td><td>Medium</td><td><span class="status blocked">Blocked</span></td></tr>
+            <tr><td>TC-007</td><td>Пошук товарів за назвою</td><td>High</td><td><span class="status passed">Passed</span></td></tr>
+            <tr><td>TC-008</td><td>Фільтрація за ціною</td><td>Medium</td><td><span class="status pending">Pending</span></td></tr>
+            <tr><td>TC-009</td><td>Додавання товару у кошик</td><td>Critical</td><td><span class="status passed">Passed</span></td></tr>
+            <tr><td>TC-010</td><td>Оформлення замовлення (Checkout)</td><td>Critical</td><td><span class="status failed">Failed</span></td></tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
